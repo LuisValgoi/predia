@@ -1,9 +1,14 @@
 # Objective
 
-This repo contains the Machine Learning Model & the WebAPI of the PREDIA – Modelo Híbrido Multifatorial.
+This repo contains the **Machine Learning Model** & the **WebAPI** of the **PREDIA – Modelo Híbrido Multifatorial for my TCC**.
+
+# Demo Link
+
+https://predia.herokuapp.com/
 
 # WebAPI - Getting Started
 
+```
 pipenv shell
 
 pip install streamlit
@@ -17,9 +22,21 @@ pip install keras
 pip install tensorflow
 
 streamlit run app.py
+```
 
-# WebAPI - Jupyter Notebook
+# Jupyter Notebook - Getting Started
 
+```
 cd predia
 
 jupyter notebook
+```
+
+# Heroku - Getting Started
+
+```
+heroku login
+...
+git push heroku master
+heroku logs --tail
+```

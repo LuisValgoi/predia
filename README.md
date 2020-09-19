@@ -1,6 +1,6 @@
 # Objective
 
-This repo contains the **Machine Learning Model** & the **WebAPI** of the **PREDIA – Modelo Híbrido Multifatorial for my TCC**.
+It has the Machine Learning Model & the WebAPI of the PREDIA – Modelo Híbrido Multifatorial for my TCC.
 
 # Demo Link
 

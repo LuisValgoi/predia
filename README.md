@@ -14,7 +14,7 @@ You can access this https://predia.herokuapp.com/
 
 # Components Diagram
 
-![03_Components](https://user-images.githubusercontent.com/8363610/93719213-6432d180-fb57-11ea-9b85-9c2a937bbd56.png)
+![03_Components](https://user-images.githubusercontent.com/8363610/93719289-e0c5b000-fb57-11ea-807e-1e223dad1534.png)
 
 # WebAPI - Getting Started
 

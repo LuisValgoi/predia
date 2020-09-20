@@ -1,1 +1,1 @@
-web: sh create_config.sh && streamlit run --server.enableCORS false app.py
+web: sh create_config.sh && streamlit run app.py

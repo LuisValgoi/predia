@@ -2,6 +2,8 @@
 
 It has the Machine Learning Model & the WebAPI of the PREDIA – Modelo Híbrido Multifatorial for my TCC.
 
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=predia&style=flat>)
+
 # Demo Link
 
 You can access this https://predia.herokuapp.com/

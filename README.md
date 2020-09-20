@@ -6,6 +6,8 @@ It has the Machine Learning Model & the WebAPI of the PREDIA – Modelo Híbrido
 
 You can access this https://predia.herokuapp.com/
 
+![Screen Shot 2020-09-20 at 15 35 23](https://user-images.githubusercontent.com/8363610/93719111-e969b680-fb56-11ea-9bab-d94f007c9887.png)
+
 # Architecture Diagram
 
 ![03_Steps](https://user-images.githubusercontent.com/8363610/93715710-64c06d80-fb41-11ea-8c43-ba6249cf8823.png)

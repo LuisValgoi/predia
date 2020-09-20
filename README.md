@@ -6,21 +6,23 @@ It has the Machine Learning Model & the WebAPI of the PREDIA – Modelo Híbrido
 
 You can access this https://predia.herokuapp.com/
 
+# Model Steps
+
+![03_Steps](https://user-images.githubusercontent.com/8363610/93715710-64c06d80-fb41-11ea-8c43-ba6249cf8823.png)
+
+# Model Detailed Steps
+
+![MODEL FLOW](https://user-images.githubusercontent.com/8363610/93718506-33e93400-fb53-11ea-81a4-6ab009a56ff4.png)
+
 # WebAPI - Getting Started
 
 ```
 pipenv shell
-
 pip install streamlit
-
 pip install plotly
-
 pip install sklearn
-
 pip install keras
-
 pip install tensorflow
-
 streamlit run app.py
 ```
 
@@ -28,7 +30,6 @@ streamlit run app.py
 
 ```
 cd predia
-
 jupyter notebook
 ```
 

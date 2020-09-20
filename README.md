@@ -6,7 +6,7 @@ It has the Machine Learning Model & the WebAPI of the PREDIA – Modelo Híbrido
 
 You can access this https://predia.herokuapp.com/
 
-# Model Steps
+# Model Flow
 
 ![03_Steps](https://user-images.githubusercontent.com/8363610/93715710-64c06d80-fb41-11ea-8c43-ba6249cf8823.png)
 

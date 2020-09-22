@@ -46,33 +46,31 @@ def get_base_model_lstm():
     return lstm
 
 # função para treinar o modelo lstm
+@st.cache(allow_output_mutation=True)
 def train_model_lstm():
-    # # separa o dataset em treino e teste
-    # data = get_data()
-    # x = data.drop(columns=get_features_to_drop_lstm(),axis=1)
-    # y = data["VENDAS"]
-    # X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.05, random_state=1, shuffle=False)
+    # separa o dataset em treino e teste
+    data = get_data()
+    x = data.drop(columns=get_features_to_drop_lstm(),axis=1)
+    y = data["VENDAS"]
+    X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.05, random_state=1, shuffle=False)
 
-    # # realiza o feature scaling
-    # scaler = preprocessing.MinMaxScaler()
-    # X_train = scaler.fit_transform(X_train)
-    # X_test = scaler.transform(X_test)
+    # realiza o feature scaling
+    scaler = preprocessing.MinMaxScaler()
+    X_train = scaler.fit_transform(X_train)
+    X_test = scaler.transform(X_test)
 
-    # # reshape to 3D
-    # X_train = X_train.reshape((X_train.shape[0], 1, X_train.shape[1]))
-    # X_train = np.array(y_train).reshape((y_train.shape[0], 1, y_train.shape[1]))
-    # X_test = X_test.reshape((X_test.shape[0], 1, X_test.shape[1]))
+    # reshape to 3D
+    train_X = X_train.reshape((X_train.shape[0], 1, X_train.shape[1]))
+    train_y = np.array(y_train).reshape((y_train.shape[0], 1, 1))
 
-    # # instancia o modelo
-    # lstm_regressor = KerasRegressor(build_fn=get_base_model_lstm)
+    # instancia o modelo
+    lstm_regressor = KerasRegressor(build_fn=get_base_model_lstm)
 
-    # # treina o modelo
-    # lstm_regressor.fit(X_train, y_train, epochs=200, batch_size=20, shuffle=False, verbose=False)
+    # treina o modelo
+    lstm_regressor.fit(train_X, train_y, epochs=200, batch_size=20, shuffle=False, verbose=False)
 
-    # # retorna
-    # return lstm_regressor
-
-    return None
+    # retorna
+    return lstm_regressor
 
 # função para retornar as colunas necessarias para o gb
 def get_features_to_drop_gb():
@@ -286,33 +284,54 @@ btn_predict = st.sidebar.button("Realizar Predição")
 
 # verifica se o botão foi acionado
 if btn_predict:
-    # lstm_features = []
-    # lstm_features.append(DATA_FESTIVA)
-    # lstm_features.append(FERIADO)
-    # lstm_features.append(QTD_CONCORRENTES)
-    # lstm_features.append(UMIDADE)
-    # lstm_features.append(VENDAS_ONTEM)
-    # lstm_y_pred = LSTM.predict(scaler.transform([lstm_features])).round().astype(int)[0]
+    ########################################################################
+
+    x = data.drop(columns=get_features_to_drop_lstm(), axis=1)
+    y = data["VENDAS"]
+    X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.05, random_state=1, shuffle=False)
+    scaler = preprocessing.MinMaxScaler()
+    scaler.fit_transform(X_train)
+
+    train_X = np.array(X_train).reshape((X_train.shape[0], 1, X_train.shape[1]))
+    train_y = np.array(y_train).reshape((y_train.shape[0], 1, 1))
+
+    lstm_features = []
+    lstm_features.append(DATA_FESTIVA)
+    lstm_features.append(FERIADO)
+    lstm_features.append(QTD_CONCORRENTES)
+    lstm_features.append(UMIDADE)
+    lstm_features.append(VENDAS_ONTEM)
+
+    lstm_features = scaler.transform([lstm_features])
+    lstm_features = np.array(lstm_features).reshape((lstm_features.shape[0], 1, lstm_features.shape[1]))
+    lstm_y_pred = LSTM.predict(lstm_features).round().astype(int)
+
+    ########################################################################
 
     x = data.drop(columns=get_features_to_drop_gb(), axis=1)
     y = data["VENDAS"]
     X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.05, random_state=1, shuffle=False)
     scaler = preprocessing.MinMaxScaler()
     scaler.fit_transform(X_train)
+
     gb_features = []
     gb_features.append(ALTA_TEMPORADA)
     gb_features.append(DATA_FESTIVA)
     gb_features.append(FERIADO)
     gb_features.append(QTD_CONCORRENTES)
     gb_features.append(VENDAS_ONTEM)
+
     gb_features = scaler.transform([gb_features])
     gb_y_pred = GB.predict(gb_features).round().astype(int)[0]
+
+    ########################################################################
 
     x = data.drop(columns=get_features_to_drop_mlp(), axis=1)
     y = data["VENDAS"]
     X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.05, random_state=1, shuffle=False)
     scaler = preprocessing.MinMaxScaler()
     scaler.fit_transform(X_train)
+
     mlp_features = []
     mlp_features.append(DATA_FESTIVA)
     mlp_features.append(FERIADO)
@@ -320,8 +339,11 @@ if btn_predict:
     mlp_features.append(TEMPERATURA)
     mlp_features.append(UMIDADE)
     mlp_features.append(VENDAS_ONTEM)
+
     mlp_features = scaler.transform([mlp_features])
     mlp_y_pred = MLP.predict(mlp_features).round().astype(int)[0]
+
+    ########################################################################
 
     qtd_almoco_ensemble = (gb_y_pred + mlp_y_pred) / 2
 

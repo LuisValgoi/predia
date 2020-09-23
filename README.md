@@ -29,13 +29,7 @@ You can access the WebAPI which consumes the model @ [predia.herokuapp.com](http
 
 ![image](https://user-images.githubusercontent.com/8363610/94081806-d6b0e500-fdd5-11ea-8495-ba39b8b69035.png)
 
-# EDA - Sales Mean
-![image](https://user-images.githubusercontent.com/8363610/94081832-ed573c00-fdd5-11ea-8f8d-186141bdd3de.png)
-
-# EDA - Kernel Density Sales
-![image](https://user-images.githubusercontent.com/8363610/94081882-0a8c0a80-fdd6-11ea-96ff-5dffd77a4c73.png)
-
-# Prediction
+# Algorithms Prediction
 ![image](https://user-images.githubusercontent.com/8363610/94083521-c0a52380-fdd9-11ea-9294-14a483701aa8.png)
 
 # WebAPI - Getting Started

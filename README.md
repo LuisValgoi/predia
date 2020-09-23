@@ -4,7 +4,7 @@ This repository contains the Machine Learning Model & the WebAPI of the PREDIA â
 
 You can access the WebAPI which consumes the model @ [predia.herokuapp.com](https://predia.herokuapp.com/)
 
-![Heroku](https://pyheroku-badge.herokuapp.com/?app=predia&style=flat>)
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=predia&style=flat)
 
 ![Screen Shot 2020-09-20 at 15 35 23](https://user-images.githubusercontent.com/8363610/93719111-e969b680-fb56-11ea-9bab-d94f007c9887.png)
 

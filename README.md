@@ -1,8 +1,6 @@
 # Context
 
-This repository contains the Machine Learning Model & the WebAPI of the PREDIA – Modelo Híbrido Multifatorial for my final paper @ Unisinos.
-
-You can access the WebAPI which consumes the model @ [predia.herokuapp.com](https://predia.herokuapp.com/)
+This repository contains the Machine Learning Model & the WebAPI of the PREDIA – Modelo Híbrido Multifatorial for my final paper @ Unisinos. You can access the WebAPI which consumes the model @ [predia.herokuapp.com](https://predia.herokuapp.com/)
 
 ![Heroku](https://pyheroku-badge.herokuapp.com/?app=predia&style=flat)
 

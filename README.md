@@ -16,18 +16,10 @@ This repository contains the Machine Learning Model & the WebAPI of the PREDIA â
 # Architecture Detail Diagram
 ![04_Architecture_Detail](https://user-images.githubusercontent.com/8363610/94083241-1fb66880-fdd9-11ea-8326-825508605249.png)
 
-# EDA - Sales History
+# Sales History
 ![image](https://user-images.githubusercontent.com/8363610/94081715-9d787500-fdd5-11ea-89d7-87c1982bfe7a.png)
 
-# EDA - Sales History Monthly
-
-![image](https://user-images.githubusercontent.com/8363610/94081770-be40ca80-fdd5-11ea-8ea0-f6a645617570.png)
-
-# EDA - Sales History Quarterly  
-
-![image](https://user-images.githubusercontent.com/8363610/94081806-d6b0e500-fdd5-11ea-8495-ba39b8b69035.png)
-
-# Algorithms Prediction
+# Algorithms Prediction Combined
 ![image](https://user-images.githubusercontent.com/8363610/94083521-c0a52380-fdd9-11ea-9294-14a483701aa8.png)
 
 # WebAPI - Getting Started

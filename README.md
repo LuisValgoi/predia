@@ -2,7 +2,7 @@
 
 This repository contains the Machine Learning Model & the WebAPI of the PREDIA – Modelo Híbrido Multifatorial for my final paper @ Unisinos. You can access the WebAPI which consumes the model @ [predia.herokuapp.com](https://predia.herokuapp.com/)
 
-All the work starts with the OneHotEncoding technique applied to the dataset. After that, Exploratory Data Analysis (and more specific, correlation analysis) were made to find the features that were deacreasing the models perfomance. Then, the model building starts with the selection of 3 heterogenous algorithms, where each one of them, makes a prediction following a pipeline composed of: Feature Engineering + Permutation Importance + Randomized Search & Feature Scaling (w/ MinMaxScaler). Once the pipeline is finished, the technique of Ensemble Learning called Aggregation is made, generating a final number of sales to be sold in the next day.
+All the work starts with the OneHotEncoding technique applied to the dataset. After that, Exploratory Data Analysis (and more specific, correlation analysis) were made to find the features that were deacreasing the models perfomance. Then, the model building starts with the selection of 3 heterogenous algorithms, where each one of them, makes a prediction following a pipeline composed of: Feature Engineering + Permutation Importance + Randomized Search & Feature Scaling (w/ MinMaxScaler). Once the pipeline is finished, the technique of Ensemble Learning called Aggregation is made, generating a final number of sales to be sold in the next day. The final model has a RMSE of 18.92 which represents less than 8% of the sales mean.
 
 ![Heroku](https://pyheroku-badge.herokuapp.com/?app=predia&style=flat)
 

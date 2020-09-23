@@ -22,6 +22,25 @@ You can access this https://predia.herokuapp.com/
 
 ![04_Model_Basic_Architecture](https://user-images.githubusercontent.com/8363610/94078741-a288f480-fdd4-11ea-8461-41e1830dcc3e.png)
 
+# Sales History View
+
+![image](https://user-images.githubusercontent.com/8363610/94081715-9d787500-fdd5-11ea-89d7-87c1982bfe7a.png)
+
+# Sales History View Monthly
+
+![image](https://user-images.githubusercontent.com/8363610/94081770-be40ca80-fdd5-11ea-8ea0-f6a645617570.png)
+
+# Sales History View Quarterly
+
+![image](https://user-images.githubusercontent.com/8363610/94081806-d6b0e500-fdd5-11ea-8495-ba39b8b69035.png)
+
+# Sales Mean View
+
+![image](https://user-images.githubusercontent.com/8363610/94081832-ed573c00-fdd5-11ea-8f8d-186141bdd3de.png)
+
+# Kernel Density View
+
+![image](https://user-images.githubusercontent.com/8363610/94081882-0a8c0a80-fdd6-11ea-96ff-5dffd77a4c73.png)
 
 # WebAPI - Getting Started
 

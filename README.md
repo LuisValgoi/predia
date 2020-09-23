@@ -14,7 +14,7 @@ This repository contains the Machine Learning Model & the WebAPI of the PREDIA â
 ![03_Steps](https://user-images.githubusercontent.com/8363610/94078669-9e5cd700-fdd4-11ea-980e-6afa44c18601.png)
 
 # Architecture Detail Diagram
-![04_Architecture_Detail](https://user-images.githubusercontent.com/8363610/94083241-1fb66880-fdd9-11ea-8326-825508605249.png)
+![04_Architecture_Detail](https://user-images.githubusercontent.com/8363610/94084066-02829980-fddb-11ea-9eb8-cdf4bb8f0904.png)
 
 # Sales History
 ![image](https://user-images.githubusercontent.com/8363610/94081715-9d787500-fdd5-11ea-89d7-87c1982bfe7a.png)

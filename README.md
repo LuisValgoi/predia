@@ -10,13 +10,18 @@ You can access this https://predia.herokuapp.com/
 
 ![Screen Shot 2020-09-20 at 15 35 23](https://user-images.githubusercontent.com/8363610/93719111-e969b680-fb56-11ea-9bab-d94f007c9887.png)
 
-# Architecture Diagram
-
-![03_Steps](https://user-images.githubusercontent.com/8363610/93715710-64c06d80-fb41-11ea-8c43-ba6249cf8823.png)
-
 # Components Diagram
 
 ![03_Components](https://user-images.githubusercontent.com/8363610/93719289-e0c5b000-fb57-11ea-807e-1e223dad1534.png)
+
+# Architecture Basic Diagram
+
+![03_Steps](https://user-images.githubusercontent.com/8363610/94078669-9e5cd700-fdd4-11ea-980e-6afa44c18601.png)
+
+# Architecture Detail Diagram
+
+![04_Model_Basic_Architecture](https://user-images.githubusercontent.com/8363610/94078741-a288f480-fdd4-11ea-8461-41e1830dcc3e.png)
+
 
 # WebAPI - Getting Started
 

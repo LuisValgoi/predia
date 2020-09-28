@@ -25,7 +25,7 @@ For this project, I have used:
 - **Streamlit**: as the framework to build the frontend.
 - **Heroku**: as the server to host the entire model & frontend.
 
-# App Sample 
+# App Image Sample 
 ![Screen Shot 2020-09-20 at 15 35 23](https://user-images.githubusercontent.com/8363610/93719111-e969b680-fb56-11ea-9bab-d94f007c9887.png)
 
 # Components Diagram

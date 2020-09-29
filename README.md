@@ -19,7 +19,6 @@ This repository contains the Machine Learning Model & the WebAPI of the PREDIA â
 
 # Tooling
 
-For this project, I have used:
 - **Python**: as the main language.
 - **Jupyter Notebook**: as the IDE to develop the model.
 - **SKLearn**: as the ML library.

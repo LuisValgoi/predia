@@ -1,3 +1,13 @@
+# Summary
+- [Status](https://github.com/LuisValgoi/predia#status)
+- [Context](https://github.com/LuisValgoi/predia#context)
+- [Techniques](https://github.com/LuisValgoi/predia#techniques)
+- [Tooling](https://github.com/LuisValgoi/predia#tooling)
+- [App Image Sample](https://github.com/LuisValgoi/predia#app-image-sample)
+- [Components Diagram](https://github.com/LuisValgoi/predia#components-diagram)
+- [Architecture Basic Diagram](https://github.com/LuisValgoi/predia#architecture-basic-diagram)
+- [Architecture Detail Diagram](https://github.com/LuisValgoi/predia#architecture-detail-diagram)
+
 # Status
 ![Heroku](https://pyheroku-badge.herokuapp.com/?app=predia&style=flat)
 
@@ -26,25 +36,6 @@ This repository contains the Machine Learning Model & the WebAPI of the PREDIA â
 - **Streamlit**: as the framework to build the frontend.
 - **Heroku**: as the server to host the entire model & frontend.
 
-# App Image Sample 
-![Screen Shot 2020-09-20 at 15 35 23](https://user-images.githubusercontent.com/8363610/93719111-e969b680-fb56-11ea-9bab-d94f007c9887.png)
-
-# Components Diagram
-![03_Components](https://user-images.githubusercontent.com/8363610/93719289-e0c5b000-fb57-11ea-807e-1e223dad1534.png)
-
-# Architecture Basic Diagram
-
-![03_Steps](https://user-images.githubusercontent.com/8363610/94078669-9e5cd700-fdd4-11ea-980e-6afa44c18601.png)
-
-# Architecture Detail Diagram
-![04_Architecture_Detail](https://user-images.githubusercontent.com/8363610/94084066-02829980-fddb-11ea-9eb8-cdf4bb8f0904.png)
-
-# Sales History
-![image](https://user-images.githubusercontent.com/8363610/94081715-9d787500-fdd5-11ea-89d7-87c1982bfe7a.png)
-
-# Algorithms Prediction Combined
-![image](https://user-images.githubusercontent.com/8363610/94083521-c0a52380-fdd9-11ea-9294-14a483701aa8.png)
-
 # WebAPI - Getting Started
 
 ```
@@ -72,3 +63,22 @@ heroku login
 git push heroku master
 heroku logs --tail
 ```
+
+# App Image Sample 
+![Screen Shot 2020-09-20 at 15 35 23](https://user-images.githubusercontent.com/8363610/93719111-e969b680-fb56-11ea-9bab-d94f007c9887.png)
+
+# Components Diagram
+![03_Components](https://user-images.githubusercontent.com/8363610/93719289-e0c5b000-fb57-11ea-807e-1e223dad1534.png)
+
+# Architecture Basic Diagram
+
+![03_Steps](https://user-images.githubusercontent.com/8363610/94078669-9e5cd700-fdd4-11ea-980e-6afa44c18601.png)
+
+# Architecture Detail Diagram
+![04_Architecture_Detail](https://user-images.githubusercontent.com/8363610/94084066-02829980-fddb-11ea-9eb8-cdf4bb8f0904.png)
+
+# Sales History
+![image](https://user-images.githubusercontent.com/8363610/94081715-9d787500-fdd5-11ea-89d7-87c1982bfe7a.png)
+
+# Algorithms Prediction Combined
+![image](https://user-images.githubusercontent.com/8363610/94083521-c0a52380-fdd9-11ea-9294-14a483701aa8.png)

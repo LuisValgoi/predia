@@ -6,7 +6,6 @@
 - [WebAPI](https://github.com/LuisValgoi/predia#webapi---getting-started)
 - [Notebook](https://github.com/LuisValgoi/predia#jupyter-notebook---getting-started)
 - [Heroku](https://github.com/LuisValgoi/predia#heroku---getting-started)
-- [App Image Sample](https://github.com/LuisValgoi/predia#app-image-sample)
 - [Components Diagram](https://github.com/LuisValgoi/predia#components-diagram)
 - [Architecture Basic Diagram](https://github.com/LuisValgoi/predia#architecture-basic-diagram)
 - [Architecture Detail Diagram](https://github.com/LuisValgoi/predia#architecture-detail-diagram)
@@ -66,9 +65,6 @@ heroku login
 git push heroku master
 heroku logs --tail
 ```
-
-# App Image Sample 
-![Screen Shot 2020-09-20 at 15 35 23](https://user-images.githubusercontent.com/8363610/93719111-e969b680-fb56-11ea-9bab-d94f007c9887.png)
 
 # Components Diagram
 ![03_Components](https://user-images.githubusercontent.com/8363610/93719289-e0c5b000-fb57-11ea-807e-1e223dad1534.png)

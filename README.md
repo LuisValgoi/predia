@@ -3,6 +3,9 @@
 - [Context](https://github.com/LuisValgoi/predia#context)
 - [Techniques](https://github.com/LuisValgoi/predia#techniques)
 - [Tooling](https://github.com/LuisValgoi/predia#tooling)
+- [WebAPI](https://github.com/LuisValgoi/predia#webapi---getting-started)
+- [Notebook](https://github.com/LuisValgoi/predia#jupyter-notebook---getting-started)
+- [Heroku](https://github.com/LuisValgoi/predia#heroku---getting-started)
 - [App Image Sample](https://github.com/LuisValgoi/predia#app-image-sample)
 - [Components Diagram](https://github.com/LuisValgoi/predia#components-diagram)
 - [Architecture Basic Diagram](https://github.com/LuisValgoi/predia#architecture-basic-diagram)
@@ -33,8 +36,8 @@ This repository contains the Machine Learning Model & the WebAPI of the PREDIA â
 - **Jupyter Notebook**: as the IDE to develop the model.
 - **SKLearn**: as the ML library.
 - **Keras**: as the deep learning library.
-- **Streamlit**: as the framework to build the frontend.
-- **Heroku**: as the server to host the entire model & frontend.
+- **Streamlit**: as the framework to build the webapi.
+- **Heroku**: as the server to host the entire model & webapi.
 
 # WebAPI - Getting Started
 

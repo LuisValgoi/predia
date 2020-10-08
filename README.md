@@ -74,7 +74,7 @@ heroku logs --tail
 ![03_Steps](https://user-images.githubusercontent.com/8363610/94078669-9e5cd700-fdd4-11ea-980e-6afa44c18601.png)
 
 # Architecture Detail Diagram
-![04_Architecture_Detail](https://user-images.githubusercontent.com/8363610/94084066-02829980-fddb-11ea-9eb8-cdf4bb8f0904.png)
+![04_Architecture_Detail](https://user-images.githubusercontent.com/8363610/95402488-3cc55e00-08e6-11eb-868c-ebc1ab16ccae.png)
 
 # Sales History
 ![image](https://user-images.githubusercontent.com/8363610/94081715-9d787500-fdd5-11ea-89d7-87c1982bfe7a.png)

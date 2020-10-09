@@ -154,9 +154,12 @@ MLP = train_model_mlp()
 ########################################################################
 
 # título
-st.title("PREDIA – Modelo Híbrido Multifatorial")
+st.title("PREDIA – Modelo Multifatorial")
 # subtítulo
-st.markdown("App utilizado para exibir a solução de Machine Learning construída para a predição de almoços do Restaurante Nostra Bréscia.")
+githublink = """
+App utilizado para exibir a solução de Machine Learning construída para a predição de almoços do Restaurante Nostra Bréscia (<a href="https://github.com/LuisValgoi/predia" target="_blank">Github</a>)
+"""
+st.markdown(githublink, unsafe_allow_html=True)
 
 ########################################################################
 
@@ -164,7 +167,7 @@ st.markdown("App utilizado para exibir a solução de Machine Learning construí
 st.subheader("Selecionando apenas um pequeno conjunto de atributos")
 allcols = ['DATA', 'VENDAS', 'FDS', 'DATA_FESTIVA', 'VESPERA_DATA_FESTIVA', 'POS_DATA_FESTIVA', 'FERIADO', 'ALTA_TEMPORADA', 'QTD_CONCORRENTES', 'TEMPERATURA', 'UMIDADE', 'VENDAS_ONTEM']
 defaultcols = ['DATA', 'VENDAS', 'FDS', 'DATA_FESTIVA', 'FERIADO', 'ALTA_TEMPORADA', 'QTD_CONCORRENTES', 'TEMPERATURA', 'VENDAS_ONTEM']
-cols = st.multiselect("Atributos", allcols, default=defaultcols)
+cols = st.multiselect("", allcols, default=defaultcols)
 st.dataframe(data[cols].head(10))
 
 ########################################################################

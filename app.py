@@ -348,7 +348,7 @@ if btn_predict:
 
     ########################################################################
 
-    qtd_almoco_ensemble = (gb_y_pred + mlp_y_pred) / 2
+    qtd_almoco_ensemble = (gb_y_pred + mlp_y_pred + lstm_y_pred) / 3.1
 
     # printa o texto
     st.sidebar.subheader(f"SERÃO VENDIDOS CERCA DE {int(round(qtd_almoco_ensemble))} ALMOÇOS")
